@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".th1">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="50dp"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp" >
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf"
+                />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/seb1"
+                android:scaleType="fitStart"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/light"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software Engineering
+Best Practices" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="10dp"
+                android:text="One of the inspirations for this book was an older book from 1982. The older book was Paul Starr’s Pulitzer Prize winner, The Social Transformation of American Medicine. " />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="50dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/b1">
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pd1"
+                 />
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="100dp"
+                android:id="@+id/b2"
+                android:src="@drawable/seb2"
+                android:scaleType="fitStart"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:fontFamily="@font/light"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="SOFTWARE ENGINEERING A PRACTIONER'S APPROACH"
+                android:textSize="25dp"
+                android:layout_marginLeft="130dp"/>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+              android:padding="10dp"
+                android:text="The content of the seventh edition of Software Engineering: A Practitioner’s Approach
+has been shaped by industry professionals, university professors, and students who have used earlier editions of the book and have taken the time to communicate their suggestions, criticisms, and ideas" />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

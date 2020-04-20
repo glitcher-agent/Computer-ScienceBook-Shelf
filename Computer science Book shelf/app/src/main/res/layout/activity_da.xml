@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".DAA">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/da1"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="50dp"
+                >
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/light"
+                    android:textColor="#000"
+                    android:background="#80C7C7D8"
+                    android:elevation="3dp"
+                    android:text=" *click here for pdf "
+                    android:onClick="pdf4"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/daa1" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:gravity="center"
+                    android:layout_marginLeft="140dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:text="Introduction To Design And Analysis Algorithm"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:fontFamily="@font/light"
+                    android:padding="10dp"
+                    android:text="This book provides a comprehensive introduction to the modern study of computer algorithms. It presents many algorithms and covers them in considerable depth, yet makes their design and analysis accessible to all levels of readers. "
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/da2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/da1"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="50dp"
+                 >
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/light"
+                    android:textColor="#000"
+                    android:background="#80C7C7D8"
+                    android:elevation="3dp"
+                    android:text=" *click here for pdf "
+                    android:onClick="pdf5"
+                     />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="140dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/light"
+                    android:textColor="#000"
+                    android:textSize="25dp"
+                    android:text="Introduction To Design Algorithms"
+                     />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="140dp"
+                    android:fontFamily="@font/light"
+                    android:padding="10dp"
+                    android:text="This write-up is a rough chronological sequence of topics that Author have covered in the
+past in postgraduate and undergraduate courses on Design and Analysis of Algorithms
+in IIT Delhi."
+                    android:textColor="#000"
+                    android:textSize="15dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/daa2" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/da3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/da2"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="50dp">
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/light"
+                    android:textColor="#000"
+                    android:background="#80C7C7D8"
+                    android:elevation="3dp"
+                    android:text=" *click here for pdf "
+                    android:onClick="pdf6"
+                     />
+
+                <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/light"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:text="The Design And Analysis of Computer Algorithm"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:fontFamily="@font/light"
+                android:padding="10dp"
+                android:text="The design and analysis of computer algorithms, Alfred V. Aho, John E. Hopcroft, Jeffrey D. Ullman,Addison-Wesley Pub. Co., 1974, , 470 pages. "
+                android:textColor="#000"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/sec" />
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

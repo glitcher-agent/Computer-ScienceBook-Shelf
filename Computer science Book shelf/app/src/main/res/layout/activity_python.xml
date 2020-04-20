@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Python">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/p1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="50dp"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf"
+                />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/py1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:gravity="center"
+                android:fontFamily="@font/light"
+                android:text="Fundamentals Of Python"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="1dp"
+                android:text="The approach of this text is easygoing, with each new concept introduced only when it is needed"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:padding="10dp"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/p2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/p1"
+            app:cardElevation="50dp"
+            >
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="onc"
+                 />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/py2" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="1dp"
+                android:text="Think Python"
+                android:fontFamily="@font/light"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="1dp"
+                android:text="The goal of this book is to teach you to think like a computer scientist. This way of thinking combines some of the best features of mathematics, engineering, and natural science. Like mathematicians, computer scientists use formal languages to denote ideas. Like engineers, they design things, assembling components into systems and evaluating tradeoffs among alternatives. Like scientists, they observe the behavior of complex systems, form hypotheses, and test predictions. "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:padding="10dp"
+                tools:ignore="DuplicateIds" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/p2"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="50dp"
+            >
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="hard"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/py3" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/light"
+                android:text="Python Tutorials "
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="@font/light"
+                android:layout_marginTop="120dp"
+                android:padding="10dp"
+                android:text="Python is an easy to learn, powerful programming language. It has efﬁcient high-level data structures and a simple buteffective approach to object-oriented programming. Python’selegant syntax and dynamic typing, togetherwithits interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

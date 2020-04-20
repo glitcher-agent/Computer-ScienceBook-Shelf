@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".th6">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:elevation="50dp"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp" >
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf17"
+                />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="105dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/aib1"
+                android:scaleType="fitStart"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_marginLeft="130dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/light"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artificial Inelligence" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:fontFamily="@font/light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We created, for the sixth edition, a new machine learning chapter based on stochastic method. We feel that the stochastic technology is having an increasingly larger impact on AI, especially in areas such as diagnostic and prognostic reasoning, natural language analysis, robotics, and machine learning" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/b2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:elevation="50dp"
+            app:cardCornerRadius="25dp"
+            android:layout_below="@id/b1"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf18"
+                />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="105dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/aib2"
+                android:scaleType="fitStart"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:fontFamily="@font/light"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lecture Notes on Artificial Intelligence" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/light"
+                android:text="Our book is intended for persons who are really interested in the cognitive science aspects of knowledge engineering. But be warned: the articles reflect their authors' different backgrounds. " />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

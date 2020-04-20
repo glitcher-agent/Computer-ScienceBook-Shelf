@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Computer Science Book Shelf</string>
+    <string name="r1">
+This book introduces probability and statistics to students of engineering and the physical sciences. It is primarily applications focused but it contains optional enrichment material. Each chapter begins with an introductory statement and concludes with a set of statistical guidelines for correctly applying statistical procedures and avoiding common pitfalls. These Do’s and Don’ts are then followed by a checklist of key terms. Important formulas, theorems, and rules areset out from the text in boxes.
+    </string>
+    <string name="book1">This textbook is for a first course on computer networking. It can be used in both
+computer science and electrical engineering departments. In terms of programming
+languages, the book assumes only that the student has experience with C, C++, Java,
+or Python.Although this book is more precise and analytical than many other introductory computer networking texts, it rarely
+uses any mathematical concepts
+    </string>
+</resources>

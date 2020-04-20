@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    tools:context=".Cprog">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            android:fontFamily="@font/light"
+            android:textColor="#000"
+            android:background="#80C7C7D8"
+            android:elevation="3dp"
+            android:text=" *click here for pdf "
+            android:onClick="pdf"
+            />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/cprog" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/light"
+            android:layout_marginLeft="100dp"
+            android:text="Book On C"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="1dp"
+            android:text="This book is intended for an introductory course on programming in C. It assumes no prior programming experience in C or any other language. Readers will find the explanations lucid and effective. Every feature of C has been demonstrated with appropriate programs tested and run on a computer. The output obtained after executing these programs have also been included."
+            android:textColor="#000000"
+            android:fontFamily="@font/light"
+            android:textSize="15dp"
+            android:padding="2dp"
+            />
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/c2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="50dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/c1">
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="260dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="onc"
+                />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/cprog2" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="1dp"
+                android:gravity="center"
+                android:fontFamily="@font/light"
+                android:text="Programming in C"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="1dp"
+                android:text="Accordingly, this edition offers several new topics,features based on the recommendations proposed by C99 committee in relevant chapters, and many other useful features. A special effort has been made to simplify the existing text with better treatment and explain the concepts with the help of examples containing appropriate comments."
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:padding="2dp"
+                tools:ignore="DuplicateIds" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="50dp"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/c2">
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="320dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="hard"
+                 />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/hard" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/light"
+                android:gravity="center"
+                android:text="Learn The C Hard Way"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/light"
+                android:padding="2dp"
+                android:text="this book is not about teaching you C programming. You’ll learn to write programs in C, but the most important lesson you’ll get from this book is rigorous defensive programming. Today, too many programmers simply assume that what they write works,but one day it will fail catastrophically. This is especially true if you’re the kind of person who has learned mostly modern languages that solve many problems for you. By reading this book and following my exercises, you’ll learn how to create software that defends itself from malicious activity and defects."
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

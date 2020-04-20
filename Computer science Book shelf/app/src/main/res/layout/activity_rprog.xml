@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    tools:context=".Rprog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/r1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf"
+                />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="70dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/r3" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Advance R"
+                android:fontFamily="@font/light"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="120dp"
+                android:padding="10dp"
+                android:text="This book describes the skills I think an advanced R programmer should have: the ability to produce quality code that can be used in a wide variety of circumstances.This book is my attempt to pass on what I’ve learned so that you can quickly become an effective R programmer.
+  This book is aimed at two complementary audiences:
+• Intermediate R programmers who want to dive deeper into R and learn new strategies for solving diverse problems.
+• Programmers from other languages who are learning R and want to understand why R works the way it does."
+                android:textColor="#000000"
+                android:fontFamily="@font/light"
+                android:textSize="15dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/r1"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="onc"
+                 />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/r2" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="1dp"
+                android:gravity="center"
+                android:fontFamily="@font/light"
+                android:text="Probability And Statistics"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="120dp"
+                android:padding="10dp"
+                android:text="@string/r1"
+                android:textColor="#000000"
+                android:fontFamily="@font/light"
+                android:textSize="15dp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/r2"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="hard"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/r1" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/light"
+                android:text="An Introduction to R"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/light"
+                android:padding="10dp"
+                android:text="This introduction to R is derived from an original set of notes describing the S and S-Plus environments written in 1990–2 by Bill Venables and David M. Smith when at the University of Adelaide. We have made a number of small changes to reflect differences between the R and S programs, and expanded some of the material. "
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>

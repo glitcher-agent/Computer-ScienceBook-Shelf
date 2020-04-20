@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".cn">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="330dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:onClick="pdf1"
+                android:text=" *click here for pdf "
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/cnbook1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@font/light"
+                android:gravity="center"
+                android:text="Computer Networking-A Top Down Approach "
+                android:textColor="#090808"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/light"
+                android:padding="10dp"
+                android:text="This textbook is for a first course on computer networking. It can be used in both
+computer science and electrical engineering departments. In terms of programming
+languages, the book assumes only that the student has experience with C, C++, Java,
+or Python.Although this book is more precise and analytical than many other introductory computer networking texts, it rarely
+uses any mathematical concepts."
+                android:textColor="#070707"
+                android:textSize="15dp" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/cn1"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="320dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:onClick="pdf2"
+                android:text=" *click here for pdf " />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/cnbook2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginRight="5dp"
+                android:textSize="25dp"
+                android:textColor="#090808"
+                android:fontFamily="@font/light"
+                android:text="Computer Networks: A Systems Approach" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:onClick="pdf2"
+                android:fontFamily="@font/light"
+                android:text="This Instructors’ Manual contains solutions to most of the exercises in the fifth edition of Peterson and Davie’s Computer Networks: A Systems Approach.Exercises are sorted (roughly) by section, not difficulty.While some exercises are more difficult than others, none are intended to be fiendishly tricky. A few exercises require a modest amount of mathematical background; most do not."
+                android:textColor="#070707"
+                android:textSize="15dp" />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>
+

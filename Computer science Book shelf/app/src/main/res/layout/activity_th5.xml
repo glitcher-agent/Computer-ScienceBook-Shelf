@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".th5">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/b1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="50dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+             >
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf15"
+                />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/oob1"
+                android:scaleType="fitStart"
+                />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#000"
+                android:fontFamily="@font/light"
+                android:textStyle="bold"
+                android:text="Object-Oriented Analysis and Design" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="The aim of this book is to give you abroad understanding of the processes and techniques used in object-oriented software development, the production of computer programs using object-oriented techniques." />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/b2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:elevation="50dp"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/b1">
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf16"
+                />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/oob2"
+                android:scaleType="fitStart"
+                />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:fontFamily="@font/light"
+                android:textStyle="bold"
+                android:text="The Unified Modelling Language User Guide" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/light"
+               android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="This book provides hints and tips for using the UML to solve a number of common modeling problems, but it does not teach you how to model. This is similar to a user guide for a programming language that teaches you how to use the language " />
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+</ScrollView>

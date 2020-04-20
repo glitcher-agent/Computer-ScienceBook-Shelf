@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ip1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf5"
+                />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/ipbooks1" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="155dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:textSize="24dp"
+                android:textColor="#090808"
+                android:fontFamily="@font/light"
+                android:text="Java Network Programming " />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:fontFamily="@font/light"
+                android:text="This book provides a general background in network fundamentals, as well as detailed discussions of Java’s facilities for writing network programs. You’ll learn how to write Java programs that share data across the Internet for games, collaboration, software updates,file transfer, and more. You’ll also get a behind-the-scenes look at HTTP, SMTP,TCP/IP, and the other protocols that support the Internet and the Web."
+                android:textColor="#070707"
+                android:textSize="15dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ip2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/ip1"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf6"
+                />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/ipbooks2" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginRight="5dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#090808"
+                android:fontFamily="@font/light"
+                android:text="Java:The Complete Reference" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:fontFamily="@font/light"
+                android:text="This book is a comprehensive guide to the Java language,describing its syntax,keywords,and fundamental programming principles. Significant portions of the Java API library are also examined. The book is divided into four parts, each focusing on a different aspect of the Java programming environment."
+                android:textColor="#070707"
+                android:textSize="15dp" />
+                 />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/ip2"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp">
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="pdf7"
+                />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/ipbooks3"
+                />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="155dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:textSize="24dp"
+                android:textColor="#090808"
+                android:fontFamily="@font/light"
+                android:text="Internet and World Wide Web
+How to Program" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:fontFamily="@font/light"
+                android:text="This book presents leading-edge computing technologies for students,instructors and software developers.The world of computing—and Internet and web programming in particular—has changed dramatically since the last edition. This new edition focuses on HTML5 and the related technologies in its ecosystem,diving into the exciting new features of HTML5,CSS3, the latest edition of JavaScript(ECMAScript 5)."
+                android:textColor="#070707"
+                android:textSize="15dp"/>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

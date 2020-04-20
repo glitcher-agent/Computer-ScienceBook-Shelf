@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    tools:context=".Computing">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/mc1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="50dp"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:onClick="pdf"
+                android:text=" *click here for pdf "
+                />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/mc3" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/light"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:text="Mobile Communications"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="1dp"
+                android:text="Welcome to the second edition of Mobile Communications – and welcome to the confusing, complex, but very interesting world of wireless and mobile technologies! In the last few years, we have all experienced the hype and frustration related to mobile technology. Once praised as the Internet on the mobile phone, the frustration with third generation mobile phone systems came at the same time the dotcoms crashed. The reader should remember that all technologies need their time to develop. "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:padding="10dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/mc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="50dp"
+            android:layout_below="@id/mc1"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="onc"
+                />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/mc1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/light"
+                android:layout_marginRight="1dp"
+                android:gravity="center"
+                android:text="Android App Development"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="@font/light"
+                android:text="This in-depth book provides the concept and code you need to start building smartphone applications with the android programming environment,the most popular open source platform available for mobile app development.AndroidApplication Development introduces you to this environment-including the operating system and SDk-and provides working examples with thorough eplanations to demonstrate Android's architectural features and API's"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:padding="10dp"
+                tools:ignore="DuplicateIds" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="50dp"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/mc2">
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"
+                android:background="#80C7C7D8"
+                android:elevation="3dp"
+                android:text=" *click here for pdf "
+                android:onClick="hard"
+                />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/mc3" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/light"
+                android:text="Android Programming "
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/light"
+                android:padding="2dp"
+                android:text="In this book, you will write eight Android apps. A couple are very simple and take only a chapter to create. Others are more complex. The longest app spans thirteen chapters. All are designed to teach you important concepts and techniques and give you direct experience using them."
+                android:textColor="#000000"
+                android:textSize="15dp"
+                />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
